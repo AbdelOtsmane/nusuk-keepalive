@@ -23,17 +23,23 @@ Internet (Cloudflare et  OTP manuel )
 
 ## 🛠️ Installation DOUBLE-CLIC (2 min)
 ### 1️⃣ Double-cliquez install_nusuk_env.bat
-text
+
+```
 ✅ Installe Python 3.12 (winget)
 ✅ Crée environnement virtuel (.venv)
 ✅ selenium + webdriver-manager + python-dotenv
+```
+
 ### 2️⃣ Éditez .env
-text
+```
 SESSION_USERNAME=votre.email@domaine.com
 SESSION_PASSWORD=votre_mot_de_passe
 LOGIN_URL=https://hajj.nusuk.sa/account/authorize
-KEEPALIVE_INTERVAL=
-### 3️⃣ Double-cliquez run_nusuk.bat
+KEEPALIVE_INTERVAL= 10 # 10 seconde et vous pouvez l'augmenter
+```
+
+### 3️⃣ Lancer le programme:
+Double-cliquez run_nusuk.bat
 OU python selenium_keepalive.py
 
 ## ▶️ Utilisation
